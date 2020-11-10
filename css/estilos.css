@@ -157,15 +157,25 @@
   transition: 1s; }
 
 .index__Contenedor div img {
-  width: 100%; }
+  width: 100%;
+  height:13em; }
 
 .index__Contenedor div h3 {
   width: 100%;
   text-align: center;
   height: 2em;
-  margin-top: 0.5em; 
-  font-size:20px!important;
-  font-family: nunito;}
+  margin-top: 0.5em!important;
+  margin-bottom: -0.2em!important;
+  font-size:18px!important;
+  font-family: nunito;
+  font-weight: 500;}
+
+ .index__Contenedor .especificaciones{
+  width:100%;
+  font-size: 10px;
+  text-align: center;
+  font-family: nunito, sans-seriff;
+ } 
 
 .body__Catalogo {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
@@ -319,8 +329,8 @@ animate__animated.animate__fadeInLeft {
   border: 1px solid #956bdb !important; }
 
 .dropdown-menu a:hover {
-  background: #c0392b;
-  color: white; }
+  background: #956bdb!important;
+  color: white; }  
 
 .nav-link:hover {
   border: 1px solid white;
@@ -429,12 +439,14 @@ animate__animated.animate__fadeInLeft {
 
 .infoContacto b {
   color: #5dade2; }
+
+
 /*------------ Contacto --------------------*/
 .formulariop {
   padding: 2em !important;
   border-radius: 5px;
   margin: auto;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-bottom:3em;
   background: white;
   box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75); }
@@ -674,7 +686,18 @@ box-shadow: -1px 11px 20px 0px rgba(0,0,0,0.75);}
   .index__Contenedor div {
     width: 90%;
     margin: auto;
-    margin-top: 1em; }
+    margin-top: 3em; }
+
+  /* --------- Servicio Tecnico --------- */
+
+  .img__main{
+    display:none;
+  }
+
+  .msj{
+    width:100%!important;
+  }
+  
   /*------- Catalogo ----------------*/
 
 
